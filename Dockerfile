@@ -18,4 +18,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+ENTRYPOINT [ "/bin/bash", "-c",  "node", "server.js" ]
