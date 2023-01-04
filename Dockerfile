@@ -16,4 +16,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-ENTRYPOINT [ "/bin/bash", "-c", "node", "server.js" ]
+ENTRYPOINT ["/usr/local/bin/node", "server.js"]
