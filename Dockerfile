@@ -1,4 +1,5 @@
-FROM node:16
+FROM node:12.18.1
+ENV NODE_ENV=production
 
 # Create app directory
 WORKDIR /usr/src/app
